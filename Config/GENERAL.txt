@@ -1,12 +1,12 @@
 #科学插件调整
-CONFIG_PACKAGE_luci-app-homeproxy=y
-CONFIG_PACKAGE_luci-app-nikki=y
+#CONFIG_PACKAGE_luci-app-homeproxy=y
+#CONFIG_PACKAGE_luci-app-nikki=y
 #增加插件
 CONFIG_PACKAGE_luci-app-upnp=y
-CONFIG_PACKAGE_luci-app-samba4=y
-CONFIG_PACKAGE_luci-app-wolplus=y
-CONFIG_PACKAGE_luci-app-gecoosac=y
-CONFIG_PACKAGE_luci-app-tailscale=y
+#CONFIG_PACKAGE_luci-app-samba4=y
+#CONFIG_PACKAGE_luci-app-wolplus=y
+#CONFIG_PACKAGE_luci-app-gecoosac=y
+#CONFIG_PACKAGE_luci-app-tailscale=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
@@ -21,6 +21,7 @@ CONFIG_PACKAGE_luci-app-filetransfer=n
 CONFIG_PACKAGE_luci-app-unblockmusic=n
 CONFIG_PACKAGE_luci-app-accesscontrol=n
 CONFIG_PACKAGE_luci-app-fileassistant=n
+CONFIG_PACKAGE_sing-box=n
 #参数调整
 CONFIG_DEVEL=y
 CONFIG_CCACHE=y
@@ -75,7 +76,7 @@ CONFIG_PACKAGE_fdisk=y
 CONFIG_PACKAGE_gdisk=y
 CONFIG_PACKAGE_htop=y
 CONFIG_PACKAGE_ip-full=y
-CONFIG_PACKAGE_iperf3=y
+CONFIG_PACKAGE_iperf3=m
 CONFIG_PACKAGE_lsblk=y
 CONFIG_PACKAGE_openssh-sftp-server=y
 CONFIG_PACKAGE_sfdisk=y
